@@ -20,6 +20,22 @@ def is_leap_year(year):
 
     return test
 
+# Another leap year checker function
+def leap_year(year):
+    test = False
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 400 == 0:
+                test = True
+            else:
+                test = False
+        else:
+            test = True
+    else:
+        test = False
+
+    return test
+
 
 # Number of leap years between birthday and today
 def LeapYearsTotal(year):
