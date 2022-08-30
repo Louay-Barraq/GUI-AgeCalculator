@@ -51,13 +51,13 @@ def LeapYearsTotal(year):
 def NumberOfDaysTillToday(year, month, day):
     sum = 0
 
-    for i in range(1,year):
+    for i in range(0,year):
         if is_leap_year(i) == True:
             sum += 366
         else :
             sum += 365
 
-    for i in range(1,month):
+    for i in range(0,month):
         sum += MonthsNumberOfDays[i]
 
     sum += day
@@ -69,13 +69,13 @@ def NumberOfDaysTillToday(year, month, day):
 def NumberOfDaysTillBirthday(year, month, day):
     sum = 0
 
-    for i in range(1,year):
+    for i in range(0,year):
         if is_leap_year(i) == True:
             sum += 366
         else :
             sum += 365
 
-    for i in range(1,month):
+    for i in range(0,month):
         sum += MonthsNumberOfDays[i]
 
     sum += day
