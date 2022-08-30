@@ -13,7 +13,7 @@ def is_leap_year(year):
         return False
 
     if not((year % 4 == 0) or (year % 100 == 0) or (year % 100 == 0 and year % 4 == 0)):
-        test = False
+        return False
 
     if (year % 100 == 0) and (year % 400 != 0):
         return False
