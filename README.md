@@ -1,2 +1,3 @@
-# GUI-Age-Calculator
-A graphical app that calculates your age in years, months, and days old based on the date you've entered
+<h1 align='center'>Age Calculator With Graphical User Interface</h1>
+
+An app with a graphical user interface that calculates your age in years, months, and days old based on the birthday date the user has given
